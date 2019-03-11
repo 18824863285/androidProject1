@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70px">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        >
+
+        <TextView
+            android:layout_width="70px"
+            android:layout_height="30px"
+            android:background="@drawable/bg_cc1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30px"
+            android:textColor="#ffffff"
+            android:textSize="18px"
+            android:text="黑色"
+            android:gravity="center"
+            android:id="@+id/color"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#f5f5f5"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30px"
+            />
+
+        <TextView
+            android:layout_width="40px"
+            android:layout_height="50px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="+"
+            android:textSize="30px"
+            android:gravity="center"
+            android:layout_marginRight="10px"
+            android:textColor="#313133"
+            android:id="@+id/jia"
+            />
+
+        <EditText
+            android:layout_width="50px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginRight="70px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="123"
+            android:textColor="#DAB866"
+            android:textSize="16px"
+            android:id="@+id/sp_num"
+            android:background="@null"
+            android:digits="0123456789"
+            android:inputType="number"
+            />
+
+        <RelativeLayout
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="130px"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="35px"
+            android:id="@+id/jian">
+
+            <View
+                android:layout_width="15px"
+                android:layout_height="2px"
+                android:background="#313133" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

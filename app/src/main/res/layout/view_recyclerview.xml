@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    >
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipeRefreshLayout"
+        android:focusableInTouchMode="true">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="260dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gongyongzanwu"
+        android:visibility="gone"
+        android:id="@+id/iv_no_date"
+        />
+
+</RelativeLayout>

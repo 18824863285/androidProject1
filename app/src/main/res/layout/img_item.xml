@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gangxiang.aiDaiOrder.zoomabledrawee.PhotoDraweeView xmlns:android="http://schemas.android.com/apk/res/android"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="match_parent"
+                                           xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                                           fresco:actualImageScaleType="fitCenter"
+                                           fresco:placeholderImageScaleType="fitCenter"
+                                           fresco:failureImageScaleType="fitCenter">
+
+</com.gangxiang.aiDaiOrder.zoomabledrawee.PhotoDraweeView >
+
+

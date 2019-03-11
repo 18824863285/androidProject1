@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">爱戴</string>
+    <string name="sy">首页</string>
+    <string name="cf">财富</string>
+    <string name="fj">附近</string>
+    <string name="rm">人脉</string>
+    <string name="wd">我的</string>
+    <string name="fk">付款</string>
+    <string name="sk">收款</string>
+    <string name="qb">钱包</string>
+    <string name="gc">共创</string>
+    <string name="zz">转账</string>
+    <string name="xygw">信用购物</string>
+    <string name="czzx">充值中心</string>
+    <string name="jyz">加油站</string>
+    <string name="hhv">HHV</string>
+    <string name="xsmp">西施门票</string>
+    <string name="qdx">全地形</string>
+    <string name="mwdj">木屋度假</string>
+    <string name="hcpjp">火车票机票</string>
+    <string name="fxk">分享客</string>
+    <string name="gxdc">共享单车</string>
+    <string name="gd">更多</string>
+    <string name="wcf">玩财富</string>
+    <string name="tj">提交</string>
+    <string name="cktj">查看统计</string>
+    <string name="dj">单价:¥</string>
+    <string name="yj">预计</string>
+    <string name="ch">出货</string>
+    <string name="dpj">吊牌价：¥</string>
+    <string name="zkj">折扣价：¥</string>
+    <string name="cup">杯</string>
+    <string name="hj">合计:</string>
+    <string name="qsrzh">请输入账号</string>
+    <string name="qsrmm">请输入密码</string>
+    <string name="dl">登录</string>
+    <string name="dlzhbkwk">登录账号不可为空</string>
+    <string name="dlmmbkwk">登录密码不可为空</string>
+    <string name="tc">退出</string>
+    <string name="nk">爱戴的诱惑</string>
+    <string name="sl">数量：</string>
+    <string name="slbkwL">数量不可为0</string>
+    <string name="skktbkw0">数量不可以0为开头</string>
+
+</resources>

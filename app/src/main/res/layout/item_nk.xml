@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="304px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30px"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        >
+        <include
+            layout="@layout/headview_good"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_nksc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_alignParentBottom="true"
+            android:background="#DAB866"
+            >
+            <View
+                android:layout_width="2px"
+                android:layout_height="30px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20px"
+                android:background="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="14px"
+                android:text="数量:100"
+                android:layout_marginLeft="31px"
+                android:layout_centerVertical="true"
+                android:id="@+id/spzsl"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="18px"
+                android:text="合计:¥20000"
+                android:layout_marginRight="31px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/hj"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

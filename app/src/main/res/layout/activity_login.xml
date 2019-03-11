@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aidai04">
+    <RelativeLayout
+        android:layout_width="370px"
+        android:layout_height="450px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148px"
+        android:background="@drawable/bg_widht"
+        >
+        <ImageView
+            android:layout_width="260px"
+            android:layout_height="85px"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/aidai01"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45px"
+            android:layout_marginTop="203px"
+            >
+            <ImageView
+                android:layout_width="24px"
+                android:layout_height="24px"
+                android:src="@drawable/aidai02"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36px"
+                android:scaleType="fitXY"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:layout_marginLeft="70px"
+                android:layout_marginRight="34px"
+                android:textColor="#313133"
+                android:textSize="20px"
+                android:hint="@string/qsrzh"
+                android:textColorHint="#C4C4CC"
+                android:id="@+id/loginName"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#f5f5f5"
+                android:layout_marginLeft="36px"
+                android:layout_marginRight="36px"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45px"
+            android:layout_marginTop="268px"
+            >
+            <ImageView
+                android:layout_width="24px"
+                android:layout_height="24px"
+                android:src="@drawable/aidai03"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36px"
+                android:scaleType="fitXY"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:layout_marginLeft="70px"
+                android:layout_marginRight="34px"
+                android:textColor="#313133"
+                android:textSize="20px"
+                android:hint="@string/qsrmm"
+                android:textColorHint="#C4C4CC"
+                android:id="@+id/loginPsw"
+                android:password="true"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#f5f5f5"
+                android:layout_marginLeft="36px"
+                android:layout_marginRight="36px"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="300px"
+            android:layout_height="60px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="349px"
+            android:background="@drawable/bg_btn"
+            android:textColor="#ffffff"
+            android:textSize="20px"
+            android:text="@string/dl"
+            android:id="@+id/btn_login"
+            />
+    </RelativeLayout>
+</RelativeLayout>

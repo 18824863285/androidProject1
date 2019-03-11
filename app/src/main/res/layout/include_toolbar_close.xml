@@ -1,0 +1,54 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#333333"
+    android:id="@+id/toolBar">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/shouye04"
+        android:layout_marginTop="13dp"
+        />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="76dp"
+        android:src="@drawable/shouye05"
+        />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="135dp"
+        android:src="@drawable/shouye06"
+        />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="195dp"
+        android:src="@drawable/shouye07"
+        />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/fujin02"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        />
+
+    <View
+        android:id="@+id/bg_toolbar_close"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</RelativeLayout>

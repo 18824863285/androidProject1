@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="44.5dp"
+    android:background="#FFFFFF"
+    android:id="@+id/titleBar_Root"
+    >
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/back"
+        >
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="21dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/fanhui01"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/tv_title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/tv_other"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/themeColor"
+
+        />
+
+
+    <ImageView
+        android:layout_width="15.5dp"
+        android:layout_height="18.5dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:id="@+id/iv_right"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f5f5f5"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
